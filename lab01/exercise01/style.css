@@ -12,23 +12,23 @@ Add some style blocks below this line to style the card.
 
 section {
     border: solid 1px #CCC;
-    width: 50vh;
+    width: 25%;
 }
 
-h2 {
+section h2 {
     margin-left: 15px;
 }
 
-img {
+section img {
     width: 100%;
 }
 
-p {
+section p {
     margin-left: 15px;
     margin-right: 15px;
 }
 
-button {
+section button {
     margin-left: 15px;
     margin-bottom: 20px;
 }
