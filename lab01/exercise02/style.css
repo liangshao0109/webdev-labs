@@ -7,18 +7,49 @@ body {
 }
 
 /*
-Add some style blocks below this line to style the cards.
-Feel free to borrow from Exercise 1.
+Add some style blocks below this line to style the card.
 */
 
-
-/* Tablet Media Query */
-@media only screen and (max-width: 1000px) {
-
+main {
+    text-align: center;
 }
 
-/* Mobile Phone Media Query */
-@media only screen and (max-width: 600px) {
-
-    
+section {
+    border: solid 1px #CCC;
+    width: 20%;
+    display: inline-block;
+    text-align: left;
 }
+
+section h2 {
+    margin-left: 15px;
+}
+
+section img {
+    width: 100%;
+}
+
+section p {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+section button {
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 1024px) {
+    section {
+        width: 40%;
+    }
+}
+
+@media (max-width: 768px) {
+    section {
+        width: 90%;
+    }
+}
+
+
+
