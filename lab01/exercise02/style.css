@@ -45,7 +45,7 @@ section button {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
     section {
         width: 90%;
     }
